@@ -1,11 +1,15 @@
 .container-langs {
-    position: absolute;
-        top: 60%;
-        left: 40%;
+    position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
         border-radius: 120px;
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 100%;
+        background-color: #ffffff;
+        width: 200px;
 
 }
 
