@@ -1,8 +1,11 @@
 .container-langs {
     position: absolute;
-    top: 340px;
-    left: 525px;
-    border-radius: 120px;
+        top: 60%;
+        left: 40%;
+        border-radius: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
 }
 
@@ -14,3 +17,5 @@
   
 
 }
+
+
