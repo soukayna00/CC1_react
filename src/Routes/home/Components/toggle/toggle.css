@@ -1,9 +1,9 @@
 .container-langs {
     position: absolute;
-    top: 140px;
-    left: 25px;
-  
-    
+    top: 340px;
+    left: 525px;
+    border-radius: 120px;
+
 }
 
 .container-langs img {

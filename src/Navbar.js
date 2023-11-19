@@ -4,11 +4,12 @@ import { Link } from 'react-router-dom';
 import { ThemeContext } from './Routes/Theme/Context/themeContext';
 import BtnToggle from './Routes/Theme/Components/BtnToggle/BtnToogle';
 
+
 export default function CustomNavbar() {
     const {theme } = useContext(ThemeContext)
     return (
 
-        <Navbar bg={theme?'light':'dark'} expand='lg'>
+        <Navbar bg={theme ? 'light' : 'dark'} variant={theme ? 'light' : 'dark'} expand='lg'>
             <Navbar.Brand as={Link} to='/'>
             <img src={process.env.PUBLIC_URL +`/logo.png`} width='100px' height='100px' alt="Logo" />
             </Navbar.Brand>

@@ -14,12 +14,32 @@
   width: 100%;
   height: 100%;
   position: absolute;
+  background-color: #fff;
+}
+.slidedark{
+    width: 100%;
+      height: 100%;
+      position: absolute;
+      background-color: #333;
 }
 
+.slide>h1 {
+  color: black;
+}
+.slidedark>h1 {
+  color: #fff;
+}
+
+                                     
 .slide img {
   width: 100%;
   height: 100%;
 }
+.slidedark img {
+  width: 100%;
+  height: 100%;
+}
+
 
 .btn-slide {
   width: 60px;

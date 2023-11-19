@@ -28,7 +28,7 @@ export default function Slider() {
         <div  className={theme ? "container-slider" : "container-slider-dark"}>
             {dataSlider.map((obj) => {             
                 return (
-                    <div   key={obj.id}          className={"slide"}    >
+                    <div key={obj.id} className={theme ? "slide" : "slidedark"}   >
 
        <h1>Pick a background image</h1>
                         <button className='download-button' onClick={() => window.open(process.env.PUBLIC_URL + `/Imgs/img${index}.jpg`, "_blank")
