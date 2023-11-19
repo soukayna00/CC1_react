@@ -1,0 +1,16 @@
+.container-langs {
+    position: absolute;
+    top: 140px;
+    left: 25px;
+  
+    
+}
+
+.container-langs img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+  
+
+}

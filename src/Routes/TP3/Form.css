@@ -1,0 +1,20 @@
+
+.light-mode {
+  background-color: #ffffff; 
+  color: #333; 
+  padding: 20px;
+}
+
+.form-control {
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.dark-mode{
+background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border: 1px white;
+}
+

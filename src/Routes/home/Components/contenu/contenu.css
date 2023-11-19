@@ -1,0 +1,30 @@
+.contenu-light{
+   
+   background:linear-gradient(225deg, #9a9999, #5757fa);
+    height: 100vh;
+   
+      
+
+}
+.contenu-dark {
+    background: linear-gradient(225deg, #9a9999, #333);
+    height: 100vh;
+    color: white;
+  
+    
+
+}
+
+.title {
+    font-size: 50px;
+    padding: 20px 0 30px 0;
+}
+
+.content-txt {
+    font-size: 22px;
+}
+
+
+.content {
+    padding: 100px;
+}
